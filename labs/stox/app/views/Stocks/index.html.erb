@@ -1,0 +1,12 @@
+<h1>/stox</h1>
+
+<%= form_tag '/new' do %>
+<%= label_tag 'Stock Name' %>
+<%= text_field_tag 'name' %>
+
+<%= label_tag 'number' %>
+<%= number_field_tag 'number' %>
+
+<%= submit_tag "Go" %>
+
+<% end %>

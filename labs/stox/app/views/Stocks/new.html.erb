@@ -1,0 +1,13 @@
+<h1><%= @name %></h1>
+
+<ul>
+	<% @quotes.each do |quote| %>
+		<li>
+			<%= quote %>
+		</li>
+		<% end %>
+</ul>
+
+<h2><%= @average_price %></h2>
+
+<%= link_to "Tally", root_path %>
