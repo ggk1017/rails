@@ -10,6 +10,7 @@ class HomeController < ApplicationController
 	end
 
 	def search
+		#redirect_to send("#{params[:page]_path}")
 		search = params[:page]
 		case search
 		when 'a'
