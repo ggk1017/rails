@@ -1,3 +1,29 @@
-// Place all the styles related to the dogs controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+$dog-color: #00ff00;
+
+
+.dog
+{
+p 
+{
+	color: $dog-color;
+	padding: 20px;
+	margin: 10px;
+	float: left;
+}
+
+b
+{
+	font-size: 30px;
+}
+
+
+
+h1
+{
+	color: $dog-color;
+	padding: 20px;
+	margin: 10px;
+	float: left;
+	background-color: red;
+}
+}
